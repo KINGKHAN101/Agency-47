@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="100%" height="100%">
+  <defs>
+    <!-- Premium 24k Metallic Gold Gradients -->
+    <linearGradient id="goldSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEAA5" />
+      <stop offset="25%" stop-color="#E1AC29" />
+      <stop offset="50%" stop-color="#FFF2BA" />
+      <stop offset="75%" stop-color="#C28B12" />
+      <stop offset="100%" stop-color="#936405" />
+    </linearGradient>
+
+    <linearGradient id="goldEdge" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6D1" />
+      <stop offset="40%" stop-color="#D9A120" />
+      <stop offset="70%" stop-color="#A4720B" />
+      <stop offset="100%" stop-color="#674402" />
+    </linearGradient>
+
+    <linearGradient id="textGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8DB" />
+      <stop offset="50%" stop-color="#E4AF2C" />
+      <stop offset="100%" stop-color="#B27E0C" />
+    </linearGradient>
+
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#D4A017" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Architectural Roofline House Outline with Triple Parallel Ribs -->
+  <g id="logo-emblem" filter="url(#goldGlow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Outer Arch & Roofline Rib -->
+    <path d="M 80,260 L 190,260 C 235,260 250,225 240,160 L 300,105 L 360,160 C 350,225 365,260 410,260 L 520,260"
+          stroke="url(#goldSheen)" stroke-width="6" />
+
+    <!-- Middle Arch & Roofline Rib -->
+    <path d="M 120,260 L 195,260 C 230,260 242,225 234,165 L 300,113 L 366,165 C 358,225 370,260 405,260 L 480,260"
+          stroke="url(#goldEdge)" stroke-width="4.5" />
+
+    <!-- Inner Arch & Roofline Rib -->
+    <path d="M 160,260 L 200,260 C 224,260 234,228 228,170 L 300,121 L 372,170 C 366,228 376,260 400,260 L 440,260"
+          stroke="url(#goldSheen)" stroke-width="3.5" />
+
+    <!-- Top Roof Peak Apex Cross/Accent -->
+    <path d="M 285,118 L 315,92 M 315,118 L 285,92"
+          stroke="url(#goldSheen)" stroke-width="4.5" />
+
+    <!-- 4-Pane Architectural Window -->
+    <rect x="278" y="152" width="44" height="44" rx="2" fill="none" stroke="url(#goldSheen)" stroke-width="4.5" />
+    <line x1="300" y1="152" x2="300" y2="196" stroke="url(#goldSheen)" stroke-width="3" />
+    <line x1="278" y1="174" x2="322" y2="174" stroke="url(#goldSheen)" stroke-width="3" />
+  </g>
+
+  <!-- Number "47" within the House Arch -->
+  <text x="300" y="248"
+        text-anchor="middle"
+        font-family="'Playfair Display', 'Cinzel', 'Times New Roman', serif"
+        font-weight="900"
+        font-size="64"
+        letter-spacing="2"
+        fill="url(#textGold)"
+        filter="url(#goldGlow)">47</text>
+
+  <!-- Wordmark: "AGENCY" -->
+  <text x="300" y="322"
+        text-anchor="middle"
+        font-family="'Montserrat', 'Outfit', 'Arial Black', sans-serif"
+        font-weight="900"
+        font-size="52"
+        letter-spacing="9"
+        fill="url(#textGold)">AGENCY</text>
+
+  <!-- Wordmark: "REAL ESTATE DEVELOPER" -->
+  <text x="300" y="362"
+        text-anchor="middle"
+        font-family="'Playfair Display', 'Cormorant Garamond', 'Georgia', serif"
+        font-style="italic"
+        font-weight="600"
+        font-size="24"
+        letter-spacing="3.5"
+        fill="#FFFFFF">REAL ESTATE DEVELOPER</text>
+
+  <!-- Tagline Sub-indicator -->
+  <line x1="160" y1="384" x2="440" y2="384" stroke="url(#goldSheen)" stroke-width="1.5" stroke-opacity="0.7" />
+  <text x="300" y="414"
+        text-anchor="middle"
+        font-family="'Montserrat', sans-serif"
+        font-weight="600"
+        font-size="13"
+        letter-spacing="5"
+        fill="url(#goldSheen)">ISLAMABAD • CDA APPROVED SECTORS</text>
+</svg>

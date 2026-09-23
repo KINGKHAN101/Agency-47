@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70 85 460 195" width="100%" height="100%">
+  <defs>
+    <linearGradient id="iconGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEFA8" />
+      <stop offset="25%" stop-color="#E2AE29" />
+      <stop offset="50%" stop-color="#FFF5C2" />
+      <stop offset="75%" stop-color="#C28B10" />
+      <stop offset="100%" stop-color="#916104" />
+    </linearGradient>
+
+    <linearGradient id="iconEdge" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6D1" />
+      <stop offset="40%" stop-color="#D9A120" />
+      <stop offset="70%" stop-color="#A4720B" />
+      <stop offset="100%" stop-color="#674402" />
+    </linearGradient>
+
+    <filter id="iconGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#D4A017" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Architectural Roofline House Outline with Triple Parallel Ribs -->
+  <g id="house-arch" filter="url(#iconGlow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer Arch & Roofline Rib -->
+    <path d="M 80,260 L 190,260 C 235,260 250,225 240,160 L 300,105 L 360,160 C 350,225 365,260 410,260 L 520,260"
+          stroke="url(#iconGold)" stroke-width="8" />
+
+    <!-- Middle Arch & Roofline Rib -->
+    <path d="M 120,260 L 195,260 C 230,260 242,225 234,165 L 300,113 L 366,165 C 358,225 370,260 405,260 L 480,260"
+          stroke="url(#iconEdge)" stroke-width="6" />
+
+    <!-- Inner Arch & Roofline Rib -->
+    <path d="M 160,260 L 200,260 C 224,260 234,228 228,170 L 300,121 L 372,170 C 366,228 376,260 400,260 L 440,260"
+          stroke="url(#iconGold)" stroke-width="4.5" />
+
+    <!-- Top Roof Peak Cross Accent -->
+    <path d="M 285,118 L 315,92 M 315,118 L 285,92"
+          stroke="url(#iconGold)" stroke-width="5" />
+
+    <!-- 4-Pane Architectural Window -->
+    <rect x="276" y="148" width="48" height="48" rx="2" fill="none" stroke="url(#iconGold)" stroke-width="5" />
+    <line x1="300" y1="148" x2="300" y2="196" stroke="url(#iconGold)" stroke-width="3.5" />
+    <line x1="276" y1="172" x2="324" y2="172" stroke="url(#iconGold)" stroke-width="3.5" />
+  </g>
+
+  <!-- Bold "47" inside the House -->
+  <text x="300" y="252"
+        text-anchor="middle"
+        font-family="'Playfair Display', 'Cinzel', 'Times New Roman', serif"
+        font-weight="900"
+        font-size="76"
+        letter-spacing="1"
+        fill="url(#iconGold)"
+        filter="url(#iconGlow)">47</text>
+</svg>
